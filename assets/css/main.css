@@ -1,0 +1,73 @@
+.top {
+	height: 300px;
+	background: url("../images/bg-sea-of-despair.jpg") bottom center no-repeat;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.top .page-header {
+	padding-top: 80px;
+}
+
+.top .page-header h1 {
+	font-size: 60pt;
+	color: white;
+	text-shadow: 0 -1px 3px rgba(0,0,0,0.8);
+}
+
+#articlesTable .page-header {
+	padding-bottom: 0px;
+	margin: 10px 0 10px;
+	border-bottom: 1px solid #eee;
+}
+
+#articlesTable .page-header h4 {
+	font-size: 16px;
+}
+
+#articlesTable p {
+	margin-bottom: 30px;
+	font-style: italic;
+}
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 20px;
+	border-left: 3px solid #eee;
+}
+
+.bs-callout-success {
+	background-color: #dff0d8;
+	border-color: #5cb85c;
+}
+
+.bs-callout-success h4 {
+  color: #5cb85c;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.powered,
+.added-by {
+	color: #999;
+	font-size: 9pt;
+}
+
+.keyword {
+	text-transform: uppercase;
+	color: #999;
+	font-size: 9pt;
+}
+
+.link-coverup {
+  color: #428bca;
+  text-decoration: none;
+}
